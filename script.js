@@ -165,13 +165,3 @@ function recuperarCotizaciones (){
 printCotizaciones()
 mostrarCotizaciones()
 }
-// function recuperarCotizaciones (){
-//     if (localStorage.cotizaciones){
-//         const cotizacionesGuardadas = JSON.parse(localStorage.getItem("cotizaciones"))
-//         debugger
-//             cotizacionesGuardadas.forEach(e =>{
-//                 cotizaciones.push(new Cotizacion(item, valorContado, cuotas, valorCuota, precioFinal))
-//             })
-//     }
-// printCotizaciones()
-// }
